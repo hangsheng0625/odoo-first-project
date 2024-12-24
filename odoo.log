@@ -1808,3 +1808,25 @@
 2024-12-10 08:13:04,873 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [10/Dec/2024 08:13:04] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.023
 2024-12-10 08:13:07,643 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [10/Dec/2024 08:13:07] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 47 0.044 0.016
 2024-12-10 08:13:07,861 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [10/Dec/2024 08:13:07] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.009 0.007
+2024-12-10 09:33:16,621 17660 INFO odoo-first-project odoo.addons.base.models.res_device: User 2 inserts device log (vwfQPTDyFosmZrW2eb0-Tq40TZzxqXsPC-gvfnmjIV) 
+2024-12-10 09:33:16,630 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [10/Dec/2024 09:33:16] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 2 0.006 0.028
+2024-12-10 10:10:37,288 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [10/Dec/2024 10:10:37] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 1 0.006 0.016
+2024-12-11 14:15:17,217 17660 INFO odoo-first-project odoo.addons.base.models.res_device: User 2 inserts device log (vwfQPTDyFosmZrW2eb0-Tq40TZzxqXsPC-gvfnmjIV) 
+2024-12-11 14:15:17,553 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [11/Dec/2024 14:15:17] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 2 0.024 0.470
+2024-12-11 15:42:20,731 17660 INFO odoo-first-project odoo.addons.base.models.res_device: User 2 inserts device log (vwfQPTDyFosmZrW2eb0-Tq40TZzxqXsPC-gvfnmjIV) 
+2024-12-11 15:42:20,736 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [11/Dec/2024 15:42:20] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 2 0.011 0.022
+2024-12-11 17:01:53,233 17660 INFO odoo-first-project odoo.addons.base.models.res_device: User 2 inserts device log (vwfQPTDyFosmZrW2eb0-Tq40TZzxqXsPC-gvfnmjIV) 
+2024-12-11 17:01:53,236 17660 INFO odoo-first-project werkzeug: 127.0.0.1 - - [11/Dec/2024 17:01:53] "GET /websocket?version=18.0-2 HTTP/1.1" 101 - 2 0.009 0.010
+2024-12-11 17:39:49,543 17660 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Odoo 18.0\server\odoo\addons\bus\models\bus.py", line 255, in run
+    self.loop()
+  File "C:\Odoo 18.0\server\odoo\addons\bus\models\bus.py", line 240, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2024-12-11 17:39:49,606 17660 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-11 17:39:49,606 17660 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-11 17:39:50,059 17660 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
